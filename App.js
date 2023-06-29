@@ -20,15 +20,15 @@ export default function App() {
           <Stack.Screen 
           name="Login" 
           component={TelaLogin} 
-          opitons={{headerShown: false}}/>
+          options={{headerShown: false}}/>
           <Stack.Screen 
           name="TelaCadastro" 
           component={TelaCadastro} 
-          opitons={{headerShown: false}}/>
+          options={{headerShown: false}}/>
           <Stack.Screen 
           name="EsqueciSenha" 
           component={TelaEsqueciSenha} 
-          opitons={{headerShown: false}}/>
+          options={{headerShown: false}}/>
           </Stack.Navigator>
           
           

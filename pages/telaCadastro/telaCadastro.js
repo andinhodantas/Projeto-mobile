@@ -14,6 +14,7 @@ export default function TelaCadastro({ navigation }) {
           <Image
             source={require('../../assets/logomarca.png')}
             resizeMode='contain' 
+            
           />
 
 

@@ -12,12 +12,13 @@ export default function TelaEsqueciSenha({ navigation }) {
           <Image
             source={require('../../assets/logomarca.png')}
             resizeMode='contain'
-            style={{ opacity: 0.8 }}
+            style={styles.logo} 
           />
 
           <Image
             source={require('../../assets/RecuperarSenha.png')}
             resizeMode='contain'
+            style={{marginBottom:"-8%"}}
           />
 
         </View>

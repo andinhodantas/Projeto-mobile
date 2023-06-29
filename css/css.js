@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     },
   
     input: {
-      marginBottom: '3%',
+      marginBottom: '5%',
       fontWeight: 'bold',
       width: 226,
       height: 40,
@@ -27,14 +27,22 @@ const styles = StyleSheet.create({
     label:{
       fontWeight: 'bold',
       color:'#EBEBEB',
-      marginBottom: '3%',
+      marginBottom: '4%',
+      fontSize:18,
+      opacity:0.9
+      
+    },
+    logo:{
+      opacity:0.8, 
+      marginBottom:"5%",
+      marginTop:"10%"
       
     },
 
     botaoAcessar: {
       backgroundColor: 'rgba(255, 0, 0, 0.66) -21.62%, rgba(252, 3, 3, 0.66) 54.46%, rgba(0, 0, 0, 0.6138) 108.55%',
       width: '30%',
-      marginTop: '10%',
+      marginTop: '5%',
       marginBottom: '3%',
       paddingVertical: 10,
       borderRadius: 10,
@@ -81,7 +89,7 @@ const styles = StyleSheet.create({
 
     boasVindas: {
       
-      marginBottom: '10%',
+      marginBottom: '20%',
       alignItems: 'center',
   
     },

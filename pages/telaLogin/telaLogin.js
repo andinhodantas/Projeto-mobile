@@ -14,12 +14,13 @@ export default function TelaLogin({navigation}) {
     <Image
        source={require('../../assets/logomarca.png')}
        resizeMode='contain'
-       style={{opacity:0.8}} 
+       style={styles.logo} 
      />
 
      <Image
        source={require('../../assets/login.png')}
        resizeMode='contain'    
+       
      />
     
     </View>
